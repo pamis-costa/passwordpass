@@ -31,4 +31,4 @@ Siga os passos abaixo para executar o PassWordPass na sua máquina:
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/SEU-USUARIO/passwordpass.git](https://github.com/pamis-costa/passwordpass.git)
+   git clone https://github.com/pamis-costa/passwordpass.git
