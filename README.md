@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ PassWordPass
 
-## Getting Started
+O **PassWordPass** é uma ferramenta moderna de cibersegurança projetada para resolver um dos maiores problemas na criação de senhas: o equilíbrio entre **alta segurança (entropia)** e **memorização humana**.
 
-First, run the development server:
+Em vez de gerar strings puramente aleatórias e impossíveis de lembrar, o algoritmo utiliza interesses pessoais do usuário (hobbies, séries, cores, etc.), aplica técnicas de ofuscação (Leet Speak), e injeta caracteres de alta complexidade.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Geração Baseada em Contexto:** Mistura palavras familiares com caracteres criptográficos.
+- **Ofuscação Automática:** Transforma caracteres comuns de forma inteligente (ex: `e` vira `3`, `s` vira `$`).
+- **Análise e Recomendação de Uso:** O sistema avalia o tamanho da senha gerada e recomenda o melhor local para uso:
+  - 🔴 *20+ caracteres:* Bancos e Contas Master.
+  - 🔵 *14 a 19 caracteres:* Redes Sociais.
+  - 🟢 *8 a 13 caracteres:* Fóruns e Serviços de Streaming.
+- **Cópia com 1 Clique:** Integração nativa com a área de transferência do navegador.
+- **Design "Hacker Chic":** Interface Dark Mode imersiva focada na experiência do usuário.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-## Learn More
+- **[Next.js](https://nextjs.org/)** (App Router)
+- **[React](https://react.dev/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- **[Tailwind CSS](https://tailwindcss.com/)** (Estilização)
+- **[Lucide React](https://lucide.dev/)** (Ícones)
 
-To learn more about Next.js, take a look at the following resources:
+## 💻 Como rodar o projeto localmente
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Siga os passos abaixo para executar o PassWordPass na sua máquina:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/passwordpass.git](https://github.com/pamis-costa/passwordpass.git)
